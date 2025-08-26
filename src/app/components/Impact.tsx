@@ -91,10 +91,10 @@ export default function Impact() {
           </p>
 
           <h3 className="text-primary text-sm font-bold uppercase mb-2">
-            "The Machine Spirit"
+          &quot;The Machine Spirit&quot;
           </h3>
           <p className="text-tertiary leading-relaxed mb-6">
-            We&apos;ve built what our members call the "Machine Spirit" — a culture of
+            We&apos;ve built what our members call the &quot;Machine Spirit&quot; — a culture of
             relentless excellence, problem-solving, and world-class work ethic. It&apos;s
             not just about skills. It&apos;s about becoming the kind of person who stands
             out anywhere.

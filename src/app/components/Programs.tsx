@@ -82,9 +82,9 @@ export default function Programs() {
       <div className="max-w-7xl mx-auto mt-16 text-center">
         <QuoteWithCorners>
           <p className="text-gray-800">
-            "While we scale to impact more lives, our commitment remains unchanged:
+          &quot;While we scale to impact more lives, our commitment remains unchanged:
             ensuring <span className="font-semibold text-primary">YOU</span> receive the
-            personal guidance and support <span className="font-semibold text-primary">YOU</span> need to thrive."
+            personal guidance and support <span className="font-semibold text-primary">YOU</span> need to thrive.&quot;
           </p>
         </QuoteWithCorners>
       </div>

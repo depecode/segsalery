@@ -51,7 +51,7 @@ export default function Testimonials() {
         ${index === 1 ? "p-4 mt-5 md:p-5 h-[80%]" : "p-6 md:p-8 h-full"}`}
                     >
                         <div className="relative z-10 text-center">
-                            <p className="text-gray-600 italic mb-4 leading-relaxed">"{item.text}"</p>
+                            <p className="text-gray-600 italic mb-4 leading-relaxed">&quot;{item.text}&quot;</p>
                         </div>
 
                         <div className="flex items-center justify-center gap-3 ">
