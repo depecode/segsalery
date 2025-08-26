@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function Footer() {
@@ -16,10 +17,12 @@ export default function Footer() {
                             giving back.
                         </h2>
 
-                        <button className="px-6 py-3 bg-primary text-white text-base font-medium rounded-full hover:bg-secondary transition inline-flex items-center gap-2">
-                            Join Community
-                            <img src="images/icons/Community.svg" alt="Segsalerty Logo" className="h-8" />
-                        </button>
+                        <Link href="https://t.me/+jh9aL-fYeB04Mjlk">
+                            <button className="px-6 py-3 bg-primary text-white text-base font-medium rounded-full hover:bg-secondary transition inline-flex items-center gap-2">
+                                Join Community
+                                <img src="/images/icons/Community.svg" alt="Segsalerty Logo" className="h-8" />
+                            </button>
+                        </Link>
                     </div>
 
                     <div className="mt-12 pt-6 border-t border-gray-600 flex flex-col md:flex-row justify-between items-center">

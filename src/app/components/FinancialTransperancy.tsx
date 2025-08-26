@@ -65,7 +65,7 @@ export default function FinancialTransparency() {
                 <div className="bg-white text-gray-900 rounded-2xl p-8 shadow-lg mb-16">
                     <h3 className="text-xl font-bold mb-4 uppercase">DONATION PROCESS</h3>
                     <p className="mb-4">
-                        While we deeply appreciate the community's interest in supporting our mission,
+                        While we deeply appreciate the community&apos;s interest in supporting our mission,
                         we maintain a careful due diligence process for all potential donations:
                     </p>
                     <ul className="space-y-2">
@@ -83,7 +83,7 @@ export default function FinancialTransparency() {
                     </ul>
                     <p className="text-sm text-gray-500 mt-6">
                         Note: External donations enable us to expand our reach and impact, helping us
-                        support more talented individuals while validating and strengthening our community's mission.
+                        support more talented individuals while validating and strengthening our community&apos;s mission.
                         Together, we can create more opportunities for deserving tech talents.
                     </p>
                 </div>

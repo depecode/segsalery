@@ -22,14 +22,14 @@ export default function Hero() {
 
                     <div className="flex space-x-4">
                         <Link
-                            href="#get-started"
+                            href="https://t.me/+aXqfEpkBcy4xNTc8"
                             className="flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg font-medium hover:bg-secondary transition"
                         >
                             Support Our Mission
                             <Image src="/images/icons/HandHeart.svg" alt="Hand Heart" width={40} height={40} className="h-8" />
                         </Link>
                         <Link
-                            href="#about"
+                            href="https://t.me/+jh9aL-fYeB04Mjlk"
                             className="flex items-center gap-2 border border-primary text-primary px-6 py-3 rounded-lg font-medium hover:text-secondary transition"
                         >
                             Join Next Cohort

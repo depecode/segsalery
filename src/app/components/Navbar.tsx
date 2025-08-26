@@ -35,7 +35,7 @@ export default function Navbar() {
                 </div>
 
                 <Link
-                    href="#join-our-community"
+                    href="https://t.me/+jh9aL-fYeB04Mjlk"
                     className="hidden md:flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-lg hover:bg-green-800 transition ml-auto"
                 >
                     <span>Join Our Community</span>
