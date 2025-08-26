@@ -30,3 +30,4 @@ export default function QuoteWithCorners({ children, html }: QuoteWithCornersPro
         </div>
     );
 }
+

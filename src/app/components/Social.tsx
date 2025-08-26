@@ -1,9 +1,9 @@
+
 "use client";
 
 import Image from "next/image";
 
 export default function Social() {
-
   const slides = [
     { src: "/images/social-1.png", alt: "Slide 1" },
     { src: "/images/social-2.png", alt: "Slide 2" },
@@ -11,30 +11,28 @@ export default function Social() {
     { src: "/images/social-4.png", alt: "Slide 4" },
   ];
 
+  const socialLinks = [
+    { href: "https://facebook.com", src: "/images/icons/Fb.svg", alt: "Facebook" },
+    { href: "https://twitter.com", src: "/images/icons/Tw.svg", alt: "Twitter" },
+    { href: "https://instagram.com", src: "/images/icons/Lg.svg", alt: "Instagram" },
+    { href: "https://linkedin.com", src: "/images/icons/Ln.svg", alt: "LinkedIn" },
+  ];
 
   return (
     <section className="py-20 px-10 bg-gray-50">
-      <div className="flex items-center justify-center gap-4 mb-10">
+      <div className="flex items-center justify-center gap-4 mb-10 flex-wrap">
         <button className="px-6 py-2 bg-tertiary text-white rounded-lg font-medium hover:bg-blue-800 transition">
           GAIN VALUE FROM OUR SOCIALS
         </button>
 
-        <div className="flex items-center">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            <Image src="/images/icons/Fb.svg" alt="Facebook" width={40} height={40} className="mx-0" />
-          </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <Image src="/images/icons/Tw.svg" alt="Twitter" width={40} height={40} className="mx-0" />
-          </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-            <Image src="/images/icons/Lg.svg" alt="Instagram" width={40} height={40} className="mx-0" />
-          </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-            <Image src="/images/icons/Ln.svg" alt="LinkedIn" width={40} height={40} className="mx-0" />
-          </a>
+        <div className="flex items-center gap-2">
+          {socialLinks.map(({ href, src, alt }) => (
+            <a key={alt} href={href} target="_blank" rel="noopener noreferrer">
+              <Image src={src} alt={alt} width={40} height={40} />
+            </a>
+          ))}
         </div>
       </div>
-
 
       <div className="relative w-full overflow-hidden">
         <div className="flex animate-scroll gap-6">
@@ -56,23 +54,22 @@ export default function Social() {
         </div>
 
         <style jsx>{`
-        .animate-scroll {
-          display: flex;
-          width: max-content;
-          animation: scroll 15s linear infinite;
-        }
+          .animate-scroll {
+            display: flex;
+            width: max-content;
+            animation: scroll 15s linear infinite;
+          }
 
-        @keyframes scroll {
-          from {
-            transform: translateX(0);
+          @keyframes scroll {
+            from {
+              transform: translateX(0);
+            }
+            to {
+              transform: translateX(-50%);
+            }
           }
-          to {
-            transform: translateX(-50%);
-          }
-        }
-      `}</style>
+        `}</style>
       </div>
-
     </section>
   );
 }

@@ -1,31 +1,12 @@
+
+
 import Image from "next/image";
 import QuoteWithCorners from "./QuoteWithCorners";
 
-
-const IndustrySupportIcon = () => (
+const Icon = ({ src, alt }: { src: string; alt: string }) => (
   <Image
-    src="/images/icons/Target.svg"
-    alt="Industry Support"
-    width={48}
-    height={48}
-    className="h-8 w-8"
-  />
-);
-
-const UserIcon = () => (
-  <Image
-    src="/images/icons/UsersFour.svg"
-    alt="Industry Support"
-    width={48}
-    height={48}
-    className="h-8 w-8"
-  />
-);
-
-const HandShakeIcon = () => (
-  <Image
-    src="/images/icons/HandShake.svg"
-    alt="Industry Support"
+    src={src}
+    alt={alt}
     width={48}
     height={48}
     className="h-8 w-8"
@@ -33,15 +14,14 @@ const HandShakeIcon = () => (
 );
 
 const stats = [
-  { value: "1000+", label: "Tech Talents Transformed", icon: UserIcon },
-  { value: "10+", label: "Years of Impact", icon: IndustrySupportIcon },
-  { value: "50+", label: "Collaborative Projects", icon: HandShakeIcon },
+  { value: "1000+", label: "Tech Talents Transformed", icon: "/images/icons/UsersFour.svg" },
+  { value: "10+", label: "Years of Impact", icon: "/images/icons/Target.svg" },
+  { value: "50+", label: "Collaborative Projects", icon: "/images/icons/HandShake.svg" },
 ];
 
 export default function Impact() {
   return (
     <section className="w-full bg-gray-50 py-20" id="impact">
-
       <div className="container mx-auto px-2 mb-12">
         <QuoteWithCorners>
           <p className="text-gray-800 leading-relaxed">
@@ -63,18 +43,15 @@ export default function Impact() {
 
       <div className="container mx-auto px-6 mb-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 bg-green-50 rounded-xl py-10 text-center shadow">
-          {stats.map((stat, index) => {
-            const Icon = stat.icon;
-            return (
-              <div key={index} className="flex flex-col items-center space-y-3">
-                <Icon />
-                <p className="text-4xl md:text-5xl font-extrabold text-primary">
-                  {stat.value}
-                </p>
-                <p className="text-gray-600 text-lg">{stat.label}</p>
-              </div>
-            );
-          })}
+          {stats.map((stat, index) => (
+            <div key={index} className="flex flex-col items-center space-y-3">
+              <Icon src={stat.icon} alt={stat.label} />
+              <p className="text-4xl md:text-5xl font-extrabold text-primary">
+                {stat.value}
+              </p>
+              <p className="text-gray-600 text-lg">{stat.label}</p>
+            </div>
+          ))}
         </div>
       </div>
 
@@ -91,7 +68,7 @@ export default function Impact() {
           </p>
 
           <h3 className="text-primary text-sm font-bold uppercase mb-2">
-          &quot;The Machine Spirit&quot;
+            &quot;The Machine Spirit&quot;
           </h3>
           <p className="text-tertiary leading-relaxed mb-6">
             We&apos;ve built what our members call the &quot;Machine Spirit&quot; — a culture of
@@ -118,7 +95,7 @@ export default function Impact() {
             className="object-cover"
           />
 
-          <span className="flex items-center gap-2 absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-sm  text-tertiary shadow">
+          <span className="flex items-center gap-2 absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-sm text-tertiary shadow">
             <Image
               src="/images/icons/HeroTag-5.png"
               alt="Tech Transformation"
@@ -129,8 +106,7 @@ export default function Impact() {
             <span>Mentorship Targeted at your growth</span>
           </span>
 
-
-          <span className="flex items-center gap-2 absolute bottom-4 right-4 bg-white px-3 py-1 rounded-full text-sm  text-tertiary shadow">
+          <span className="flex items-center gap-2 absolute bottom-4 right-4 bg-white px-3 py-1 rounded-full text-sm text-tertiary shadow">
             <Image
               src="/images/icons/HeroTag-1.png"
               alt="Tech Transformation"
