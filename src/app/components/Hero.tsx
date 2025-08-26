@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { HandHeart, MoveUpRight, Rocket, Laptop, Handshake } from "lucide-react";
 import Link from "next/link";
 
 export default function Hero() {

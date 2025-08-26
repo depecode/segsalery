@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Users, Award, Handshake } from "lucide-react";
 import QuoteWithCorners from "./QuoteWithCorners";
 
 
@@ -95,9 +94,9 @@ export default function Impact() {
             "The Machine Spirit"
           </h3>
           <p className="text-tertiary leading-relaxed mb-6">
-            We’ve built what our members call the "Machine Spirit" — a culture of
-            relentless excellence, problem-solving, and world-class work ethic. It’s
-            not just about skills. It’s about becoming the kind of person who stands
+            We&apos;ve built what our members call the "Machine Spirit" — a culture of
+            relentless excellence, problem-solving, and world-class work ethic. It&apos;s
+            not just about skills. It&apos;s about becoming the kind of person who stands
             out anywhere.
           </p>
 
@@ -105,7 +104,7 @@ export default function Impact() {
             From Potential to Power
           </h3>
           <p className="text-tertiary leading-relaxed">
-            Our members don’t just level up in tech. They lead with clarity, solve
+            Our members don&apos;t just level up in tech. They lead with clarity, solve
             with confidence, and thrive in every challenge professionally and
             personally.
           </p>
@@ -147,10 +146,10 @@ export default function Impact() {
       <div className="container mx-auto px-6">
         <QuoteWithCorners>
           <p className="text-lg md:text-xl text-gray-800 leading-relaxed">
-            “Our community doesn’t just create developers or designers —{" "}
+            “Our community doesn&apos;t just create developers or designers —{" "}
             <b className="font-semibold">
-              we nurture individuals who approach every challenge with the ’Machine
-              Spirit’,
+              we nurture individuals who approach every challenge with the &apos;Machine
+              Spirit&apos;,
             </b>{" "}
             turning them into exceptional problem solvers and leaders in their
             fields.”

@@ -12,7 +12,7 @@ export default function Footer() {
                             Ready to level up your tech game?
                         </p>
                         <h2 className="text-2xl md:text-3xl font-bold mb-6 leading-snug">
-                            Join a community that’s <br className="hidden md:block" />
+                            Join a community that&apos;s <br className="hidden md:block" />
                             building, growing, and <br className="hidden md:block" />
                             giving back.
                         </h2>
@@ -20,14 +20,14 @@ export default function Footer() {
                         <Link href="https://t.me/+jh9aL-fYeB04Mjlk">
                             <button className="px-6 py-3 bg-primary text-white text-base font-medium rounded-full hover:bg-secondary transition inline-flex items-center gap-2">
                                 Join Community
-                                <img src="/images/icons/Community.svg" alt="Segsalerty Logo" className="h-8" />
+                                <Image src="/images/icons/Community.svg" alt="Segsalerty Logo" className="h-8" />
                             </button>
                         </Link>
                     </div>
 
                     <div className="mt-12 pt-6 border-t border-gray-600 flex flex-col md:flex-row justify-between items-center">
                         <div className="flex items-center gap-2 mb-4 md:mb-0">
-                            <img src="images/segsalerty-green-2.svg" alt="Segsalerty Logo" className="h-8" />
+                            <Image src="images/segsalerty-green-2.svg" alt="Segsalerty Logo" className="h-8" />
                         </div>
 
                         <div className="text-sm text-gray-400 mb-4 md:mb-0">
