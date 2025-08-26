@@ -6,7 +6,7 @@ export default function Testimonials() {
         {
             name: "Chidera Okonkwo",
             role: "Rising Star",
-            text: "SEGSALERTY gave me the structure and support I didn’t know I needed. I’ve grown so much, both technically and personally.",
+            text: "SEGSALERTY gave me the structure and support I didn&apos;t know I needed. I&apos;ve grown so much, both technically and personally.",
             color: "bg-purple-600",
             image: "/images/icons/Arrow-1.svg"
         },

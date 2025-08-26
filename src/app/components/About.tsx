@@ -30,14 +30,14 @@ export default function About() {
                         Beyond Technical Excellence
                     </h2>
                     <p className="text-tertiary leading-relaxed mb-8">
-                        What sets Segun apart is his unwavering commitment to giving back. Rather than simply leading from the top, he’s built an ecosystem that empowers aspiring African tech talents through mentorship, real-world projects, and access to global tech leaders.
+                        What sets Segun apart is his unwavering commitment to giving back. Rather than simply leading from the top, he&apos;s built an ecosystem that empowers aspiring African tech talents through mentorship, real-world projects, and access to global tech leaders.
                     </p>
 
                     <h2 className="text-2xl md:text-2xl font-bold text-secondary mb-6">
                         Building a Movement
                     </h2>
                     <p className="text-tertiary leading-relaxed">
-                        He’s not just developing engineers — he’s fostering a culture of excellence, inclusion, and impact. Through his leadership, a new generation of African tech professionals is rising — bold, equipped, and ready to lead.
+                        He&apos;s not just developing engineers — he&apos;s fostering a culture of excellence, inclusion, and impact. Through his leadership, a new generation of African tech professionals is rising — bold, equipped, and ready to lead.
                     </p>
                 </div>
 

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { HandHeart, MoveUpRight, Rocket, Laptop, Handshake } from "lucide-react";
 import Link from "next/link";
 
 export default function Hero() {
@@ -13,7 +12,7 @@ export default function Hero() {
             <div className="relative container mx-auto px-6 grid md:grid-cols-2 gap-10 items-center z-10">
                 <div className="space-y-6">
                     <h1 className="flex flex-col text-6xl md:text-7xl font-bold text-gray-900 leading-tight">
-                        <span>Nurturing</span> <span>Africa’s Gifted</span> <span>Tech Talents</span>
+                        <span>Nurturing</span> <span>Africa&apos;s Gifted</span> <span>Tech Talents</span>
                     </h1>
                     <p className="text-lg text-gray-600">
                         A decade of discovering, nurturing, and empowering gifted minds to

@@ -29,7 +29,7 @@ export default function FinancialTransparency() {
                         <p className="text-4xl font-extrabold text-primary mb-3">₦4,550,000</p>
                         <p>Cash in Bank (+ External Donations)</p>
                         <p className="text-gray-600 mt-2">
-                            65% is the Founder’s personal contribution
+                            65% is the Founder&apos;s personal contribution
                         </p>
                     </div>
 
