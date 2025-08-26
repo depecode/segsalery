@@ -26,11 +26,7 @@ export default function Testimonials() {
         },
     ];
 
-    const arrowColorClasses: Record<string, string> = {
-        "purple-600": "border-t-purple-600",
-        "pink-600": "border-t-pink-600",
-        "blue-600": "border-t-blue-600",
-    };
+   
 
     return (
         <section

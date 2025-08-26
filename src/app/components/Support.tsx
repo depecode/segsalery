@@ -9,7 +9,7 @@ export default function Support() {
         "Contribute to our community fund to help provide resources and support to rising talents.",
       image: "/images/support-img-1.png",
       btnText: "Give to the Community",
-      icon: <img src="images/icons/HandHeart.svg" alt="Segsalerty Logo" className="h-8" /> 
+      icon: <Image src="images/icons/HandHeart.svg" alt="Segsalerty Logo" className="h-8" /> 
     },
     {
       title: "PROJECT OPPORTUNITIES",
@@ -17,7 +17,7 @@ export default function Support() {
         "Outsource your tech projects to our talented community members.",
       image: "/images/support-img-2.png",
       btnText: "Join the Accelerator",
-      icon: <img src="images/icons/ArrowTag-2.svg" alt="Segsalerty Logo" className="h-8" />
+      icon: <Image src="images/icons/ArrowTag-2.svg" alt="Segsalerty Logo" className="h-8" />
     },
     {
       title: "JOIN AS A MENTOR",
@@ -25,7 +25,7 @@ export default function Support() {
         "Share your expertise and experience with our community members.",
       image: "/images/support-img-3.png",
       btnText: "Join the Accelerator",
-      icon: <img src="images/icons/ArrowTag-1.svg" alt="Segsalerty Logo" className="h-8" />
+      icon: <Image src="images/icons/ArrowTag-1.svg" alt="Segsalerty Logo" className="h-8" />
     },
   ];
 
