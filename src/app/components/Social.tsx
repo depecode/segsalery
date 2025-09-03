@@ -39,16 +39,26 @@ export default function Social() {
           {[...slides, ...slides].map((slide, idx) => (
             <div
               key={idx}
-              className="flex-shrink-0 w-[375px] h-[468px] sm:w-[500px] sm:h-[624px] md:w-[700px] md:h-[873px]"
+              className="flex-shrink-0"
             >
-              <Image
+              {/* <Image
                 src={slide.src}
                 alt={slide.alt}
                 width={700}
                 height={873}
-                className="w-full h-full object-cover rounded-lg shadow-md"
+                className=" object-cover rounded-lg shadow-md"
                 priority
-              />
+              /> */}
+
+<Image
+  src={slide.src}
+  alt={slide.alt}
+  width={375}
+  height={468}
+  unoptimized
+  className="w-[375px] h-[468px] object-cover rounded-lg shadow-md"
+/>
+
             </div>
           ))}
         </div>

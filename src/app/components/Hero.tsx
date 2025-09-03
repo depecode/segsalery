@@ -30,13 +30,13 @@ export default function Hero() {
 
       <div className="relative container mx-auto px-6 grid md:grid-cols-2 gap-10 items-center z-10">
         <div className="space-y-6">
-          <h1 className="flex flex-col text-6xl md:text-7xl font-bold text-gray-900 leading-tight">
+          <h1 className="flex flex-col text-[64px] md:text-7xl font-bold text-gray-900 leading-tight">
             <span>Nurturing</span>
             <span>Africa&apos;s Gifted</span>
             <span>Tech Talents</span>
           </h1>
 
-          <p className="text-lg text-gray-600">
+          <p className="text-2xl text-gray-600 font-normal max-w-xl leading-relaxed">
             A decade of discovering, nurturing, and empowering gifted minds to
             become world-class tech leaders.
           </p>
@@ -44,7 +44,7 @@ export default function Hero() {
           <div className="flex space-x-4">
             <Link
               href="https://t.me/+aXqfEpkBcy4xNTc8"
-              className="flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg font-medium hover:bg-secondary transition"
+              className="flex items-center gap-2 bg-primary text-white text-base px-6 py-3 rounded-lg font-medium hover:bg-secondary transition"
             >
               Support Our Mission
               <Image
@@ -57,7 +57,7 @@ export default function Hero() {
 
             <Link
               href="https://t.me/+jh9aL-fYeB04Mjlk"
-              className="flex items-center gap-2 border border-primary text-primary px-6 py-3 rounded-lg font-medium hover:text-secondary transition"
+              className="flex items-center gap-2 border border-primary text-primary text-base px-6 py-3 rounded-lg font-medium hover:text-secondary transition"
             >
               Join Next Cohort
               <Image
@@ -70,7 +70,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="relative">
+        <div className="relative text-sm">
           <Image
             src="/images/hero.png"
             alt="Young African tech talent illustration"
@@ -84,19 +84,19 @@ export default function Hero() {
             icon="/images/icons/HeroTag-1.png"
             alt="Tech Transformation"
             text="Over 1,000 Tech Talents Transformed"
-            position="top-6 left-6"
+            position="top-15 -left-20"
           />
           <HeroTag
             icon="/images/icons/HeroTag-2.png"
             alt="Industry Support"
             text="Backed by Industry Veterans"
-            position="top-10 right-6"
+            position="top-62 right-30"
           />
           <HeroTag
             icon="/images/icons/HeroTag-4.png"
             alt="Laptop Giveaway"
             text="20+ Laptops Given Out"
-            position="bottom-6 left-6"
+            position="bottom-35 -left-10"
           />
         </div>
       </div>

@@ -9,9 +9,9 @@ export default function About() {
         </span>
       </div>
 
-      <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-start">
         <div>
-          <h2 className="text-2xl font-bold text-secondary mb-6">
+          <h2 className="text-l font-bold text-secondary mb-6">
             Visionary Leadership
           </h2>
           <p className="text-tertiary leading-relaxed mb-8">
@@ -20,7 +20,7 @@ export default function About() {
             systems — particularly in business automation and fintech.
           </p>
 
-          <h2 className="text-2xl font-bold text-secondary mb-6">
+          <h2 className="text-l font-bold text-secondary mb-6">
             Master of His Craft
           </h2>
           <p className="text-tertiary leading-relaxed mb-8">
@@ -30,7 +30,7 @@ export default function About() {
             and scalable platforms used across continents.
           </p>
 
-          <h2 className="text-2xl font-bold text-secondary mb-6">
+          <h2 className="text-l font-bold text-secondary mb-6">
             Beyond Technical Excellence
           </h2>
           <p className="text-tertiary leading-relaxed mb-8">
@@ -40,7 +40,7 @@ export default function About() {
             mentorship, real-world projects, and access to global tech leaders.
           </p>
 
-          <h2 className="text-2xl font-bold text-secondary mb-6">
+          <h2 className="text-l font-bold text-secondary mb-6">
             Building a Movement
           </h2>
           <p className="text-tertiary leading-relaxed">
@@ -51,7 +51,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="relative w-full max-w-4xl mx-auto aspect-[4/3]">
+        <div className="relative w-full max-w-2xl mx-auto aspect-[2/3]">
           <Image
             src="/images/about-frame.png"
             alt="Segun Mustafa - Founder"

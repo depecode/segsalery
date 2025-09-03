@@ -8,7 +8,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Segsalerty",
+  title: "SEGSALERTY - Nurturing Africa's Gifted Tech Talents",
   description: "Empowering Africa’s finest tech minds",
   icons: {
     icon: [
@@ -32,4 +32,10 @@ export default function RootLayout({
     </html>
   );
 }
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
 
